@@ -7,3 +7,5 @@ export const routes: Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'todo-list', component: TodoComponent}
   ];
+
+export const routeCompArr = [HomeComponent, TodoComponent];
